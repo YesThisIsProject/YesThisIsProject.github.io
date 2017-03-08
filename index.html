@@ -3,6 +3,7 @@
 <head>
 	<title>Project</title>
 	<link rel="stylesheet" type="text/css" href="bulma/css/bulma.css">
+	
 </head>
 <body>
 	<section class="hero is-success is-fullheight">
@@ -17,5 +18,21 @@
 	    	</div>
 	  	</div>
 	</section>
+	<script>
+		<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+			var c = document.getElementById("myCanvas");
+			var ctx = c.getContext("2d");
+
+			// Create gradient
+			var grd = ctx.createLinearGradient(0,0,200,0);
+			grd.addColorStop(0,"red");
+			grd.addColorStop(1,"white");
+
+			// Fill with gradient
+			ctx.fillStyle = grd;
+			ctx.fillRect(10,10,150,80);
+		</canvas>
+	</script>
 </body>
+
 </html>

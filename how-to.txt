@@ -1,0 +1,11 @@
+Hue-Manatee:compSci jordan.korley-myron$ git clone https://github.com/YesThisIsProject/YesThisIsProject.github.io.git
+Cloning into 'YesThisIsProject.github.io'...
+remote: Counting objects: 62, done.
+remote: Compressing objects: 100% (60/60), done.
+remote: Total 62 (delta 0), reused 62 (delta 0), pack-reused 0
+Unpacking objects: 100% (62/62), done.
+Checking connectivity... done.
+Hue-Manatee:compSci jordan.korley-myron$ cd YesThisIsProject.github.io/
+Hue-Manatee:YesThisIsProject.github.io jordan.korley-myron$ 
+Hue-Manatee:YesThisIsProject.github.io jordan.korley-myron$ 
+

@@ -59,7 +59,7 @@ function init() {
 		let yCoord = Math.floor(Math.random()*height)
 		clues.push([xCoord, yCoord])
 	}
-	return setInterval(draw, fps); 
+	return setInterval(draw, fps);
 }
 
 function doKeyDown(event){
@@ -76,7 +76,7 @@ function doKeyDown(event){
 			}
 			img.src = images.front[y%2]
 			break;
-		case 65:  // A key downg
+		case 65:  // A key down
 			if (x - moveX > 0){
 				x -= moveX;
 			}
